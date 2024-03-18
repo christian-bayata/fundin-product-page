@@ -10,10 +10,12 @@ const SecondSection = (props) => {
           <h2>$89914</h2>
           <p>of $100,000 backed</p>
         </div>
+        <div className={classes["vertical-line"]}></div>
         <div className={classes["stats-list"]}>
           <h2>5007</h2>
           <p>total backers</p>
         </div>
+        <div className={classes["vertical-line"]}></div>
         <div className={classes["stats-list"]}>
           <h2>56</h2>
           <p>days left</p>

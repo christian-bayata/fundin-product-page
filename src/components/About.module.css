@@ -1,0 +1,59 @@
+.about {
+  position: absolute;
+  left: 30%;
+  top: 100%;
+}
+
+.about-project {
+  margin: 0 3rem;
+}
+
+.about-project p {
+  color: grey;
+}
+
+.bamboo-stand {
+  margin: 3rem 3rem 0 3rem;
+  border: 1px solid rgba(211, 211, 211, 0.5);
+  padding: 2rem;
+}
+
+.bamboo-stand-header,
+.bamboo-stand-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bamboo-stand-header h4 {
+  color: #4f005f;
+}
+
+.bamboo-stand p {
+  color: grey;
+}
+
+.bamboo-button {
+  background: #4f005f;
+  padding: 1rem 2rem;
+}
+
+.highlight {
+  font-weight: bold;
+  font-size: 34px;
+  color: #000;
+}
+
+.bamboo-stand-footer p {
+  color: grey;
+}
+
+.last-card {
+  margin-bottom: 3rem;
+}
+
+.bamboo-out-stock {
+  margin: 3rem;
+  border: 1px solid rgba(211, 211, 211, 0.5);
+  padding: 2rem;
+}

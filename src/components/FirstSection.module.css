@@ -23,6 +23,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 3rem;
 }
 
 .first-section-button {
@@ -64,14 +65,14 @@
   display: flex;
   align-items: center;
   font-size: 1.15rem;
-  padding: 0.75rem 2.5rem 0.75rem 0; /* Adjust the padding as needed */
+  padding: 0.75rem 2.5rem 0.75rem 0;
 }
 
 /* Apply padding and color based on bookmark state */
 .bookmarked span,
 .not-bookmarked span {
-  padding-left: 2rem; /* Shift the text to the left by adjusting the padding */
-  color: rgba(211, 211, 211, 0.551); /* Default color */
+  padding-left: 2rem;
+  color: rgba(211, 211, 211, 0.551);
 }
 
 .bookmarked span {

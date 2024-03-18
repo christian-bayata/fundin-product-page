@@ -1,19 +1,19 @@
 .second-section {
   position: absolute;
   left: 30%;
-  top: 61%;
+  top: 69%;
 }
 
 .section {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
   margin: 20px;
 }
 
 .stats-list {
   display: block;
-  margin-right: 4rem;
+  margin-right: 2rem;
 }
 
 .stats-list h2 {
@@ -25,10 +25,17 @@
   color: grey;
 }
 
+.vertical-line {
+  width: 0.2px;
+  height: 70px;
+  background-color: grey;
+  margin: 2rem 3rem 0 0;
+}
+
 .progress-bar {
-  width: 500px;
+  width: 650px;
   height: 15px;
-  background-color: #fff;
+  background-color: rgba(211, 211, 211, 0.5);
   border: 1px solid #ccc;
   border-radius: 10px;
   overflow: hidden;

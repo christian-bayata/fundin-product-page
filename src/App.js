@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import FirstSection from "./components/FirstSection";
 import SecondSection from "./components/SecondSection";
+import About from "./components/About";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <FirstSection />
       <SecondSection />
+      <About />
     </>
   );
 }
