@@ -1,0 +1,89 @@
+.first-section {
+  position: absolute;
+  left: 30%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  animation: enterFromBottom 1s ease forwards;
+}
+
+.section {
+  text-align: center;
+}
+
+.section h1 {
+  color: black;
+}
+
+.section p {
+  color: grey;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.first-section-button {
+  background: #4f005f;
+  padding: 1rem 3rem;
+}
+/* 
+.bookmark {
+  background-color: rgba(211, 211, 211, 0.5);
+  border: none;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 1.15rem;
+  padding: 0.75rem 2.5rem 0.75rem 0;
+}
+
+.bookmarked,
+.not-bookmarked {
+  padding-left: 2rem;
+}
+
+.bookmarked {
+  padding-left: 2rem;
+  color: #4f005f;
+  font-size: 7rem;
+}
+
+.not-bookmarked {
+  color: rgba(211, 211, 211, 0.551);
+} */
+
+.bookmark {
+  background-color: rgba(211, 211, 211, 0.5);
+  border: none;
+  height: 60px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 1.15rem;
+  padding: 0.75rem 2.5rem 0.75rem 0; /* Adjust the padding as needed */
+}
+
+/* Apply padding and color based on bookmark state */
+.bookmarked span,
+.not-bookmarked span {
+  padding-left: 2rem; /* Shift the text to the left by adjusting the padding */
+  color: rgba(211, 211, 211, 0.551); /* Default color */
+}
+
+.bookmarked span {
+  color: #4f005f; /* Color when bookmarked */
+}
+@keyframes enterFromBottom {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
